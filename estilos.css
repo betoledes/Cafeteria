@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Concert One', cursive;
+}
+
+nav{
+	width: 100%;
+	height: 200px;
+	background: #f1c40f;
+	position: fixed;
+}
+
+.bienvenida{
+	width: 100%;
+	height: 25px;
+	margin-top: 220px;
+	float: left;
+	text-align: center;
+}
+
+.bienvenida>h1{
+	font-size: 1.8em;
+	color: #f1c40f;
+	text-align: center;
+}
+
+.login{
+	display: flex;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.datosUsarios{
+	width: 100%;
+	top: 210px;
+	height: 100%;
+}
+
+.datoUsuario{
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.separacion{
+	margin-top: 55px;
+}
+
+.datoUsuario>input{
+	margin-bottom: 10px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: 1px solid #f1c40f;
+	height: 38px;
+	width: calc(100% - 70px);
+	float: left;
+	font-size: 1em;
+	margin-left: 35px;
+	background-color: transparent;
+	outline: none;
+}
+
+.loginAccount{
+	width: calc(100% - 90px);
+	height: 38px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 20px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.1em;
+	color: white;
+	background-color: #f1c40f;
+
+}
+
+.olvidarPass{
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+}
+
+.olvidarPass>h1{
+	text-align: center;
+	color: #f1c40f;
+	font-size: 1em;
+}
+
+.nuevaAccount{
+	width: calc(100% - 110px);
+	height: 32px;
+	margin-top: 35px;
+	float: left;
+	margin-left: 55px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	font-size: 1em;
+	color: white;
+	background-color: #2ecc71;
+	margin-bottom: 20px;
+}
+
+.label{
+	color: gray;
+	margin-left: 35px;
+	position: absolute;
+	float: left;
+	margin-top: -10px;
+	transition: .1s all;
+	z-index: -10;
+}
+
+.escondido{
+	margin-top: 10px;
+}
+
+.navegacion{
+	position: fixed;
+	height: 45px;
+	width: 100%;
+	background: #f1c40f;
+
+}
+
+.navegacion img{
+	width: 35px;
+	height: 35px;
+	margin-top: 5px;
+	-webkit-filter:invert(100%) brightness(500%) saturate(0%);
+	float: left;
+}
+
+.crearCuenta{
+	width: 100%;
+	height: 25px;
+	margin-top: 60px;
+	float: left;
+	text-align: center;
+}
+
+.crearCuenta>h1{
+	font-size: 1.4em;
+	color: #f1c40f;
+	text-align: center;
+}
+
+.registrosUsuarios{
+	width: 100%;
+	top: 100px;
+	height: 100%;
+}
+
+.registroUsuario{
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.registroUsuario>input{
+	margin-bottom: 10px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: 1px solid #f1c40f;
+	height: 38px;
+	width: calc(100% - 70px);
+	float: left;
+	font-size: 1em;
+	margin-left: 35px;
+	background-color: transparent;
+	outline: none;
+}
+
+.crearAccount{
+	width: calc(100% - 90px);
+	height: 38px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 50px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.1em;
+	color: white;
+	background-color: #f1c40f;
+}
+
+.navegacion>h1{
+	text-align: center;
+	color: white;
+	font-size: 1.3em;
+	margin-top: 8px; 
+}
+
+.menu {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background: #f1c40f;
+	bottom: 0px;
+}
+
+.activo{
+	border-bottom: 4px solid white;
+	box-sizing: border-box;
+}
+
+.navInicio{
+	height: 50px;
+	line-height: 60px;
+	list-style-type: none;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.navInicio img{
+	height: 25px;
+	width: 25px;
+	-webkit-filter:invert(100%) brightness(500%) saturate(0%);
+}
+
+.buscar{
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	margin-top: 7px;
+	width: calc(100% - 50px);
+	height: 30px;
+	float: left;
+	margin-left: 25px;
+	text-align: center;
+}
+
+/*icono de búsqueda en la barra de buscar*/
+.icon img{
+	position: absolute;
+  	margin-left: 30px;
+  	margin-top: 15px;
+  	z-index: 1;
+  	float: left;
+ 	-webkit-filter:invert(0%) brightness(500%) saturate(0%);
+  	width: 15px;
+  	height: 15px;
+}
+
+/*Corresponde a perfil del usuario*/
+.perfilUsuario{
+	height: 150px;
+	float: left;
+	margin-left: 38px;
+	width: calc(100% - 80px);
+	text-align: center;
+	background-image: url(perfil2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 50px;
+}
